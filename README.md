@@ -2,6 +2,7 @@
 # PRUEBA_PLANI
 
 EJECUTAR_SCRIPT /c-comenta-pruebas/scripts_kernel/PRUEBA_PLANI
+
 FINALIZAR_PROCESO 3
 
 # PRUEBA_DEADLOCK
