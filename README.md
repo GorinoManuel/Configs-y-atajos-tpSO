@@ -1,4 +1,11 @@
 # Configs-y-atajos-tpSO
+git clone https://github.com/sisoputnfrba/so-deploy.git
+
+cd so-deploy
+
+./deploy.sh -r=release -p=utils -p=kernel -p=cpu -p=memoria -p=entradasalida "tp-2024-1c-LocosPorLaPromo"
+
+
 # PRUEBA_PLANI
 
 EJECUTAR_SCRIPT /c-comenta-pruebas/scripts_kernel/PRUEBA_PLANI
