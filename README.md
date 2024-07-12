@@ -50,6 +50,16 @@ INICIAR_PROCESO /scripts_memoria/MEMORIA_2
 
 INICIAR_PROCESO /scripts_memoria/MEMORIA_3
 
+KERNEL: ./bin/kernel ../../Configs-y-atajos-tpSO/PRUEBA_MEMORIA/kernel.config
+
+MEMORIA: ./bin/memoria ../../Configs-y-atajos-tpSO/PRUEBA_MEMORIA/memoria.config
+
+IO_GEN_SLEEP: ./bin/entradasalida IO_GEN_SLEEP ../../Configs-y-atajos-tpSO/PRUEBA_MEMORIA/IO_GEN_SLEEP.config
+
+CPU: ./bin/cpu ../../Configs-y-atajos-tpSO/PRUEBA_MEMORIA/cpu_FIFO.config
+
+     ./bin/cpu ../../Configs-y-atajos-tpSO/PRUEBA_MEMORIA/cpu_LRU.config
+
 # PRUEBA_IO
 
 EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_IO
@@ -58,6 +68,18 @@ Para IO_A (0):WAR NEVER CHANGES...
 
 Para IO_C (2):Sistemas Operativos 1c2024
 
+
+KERNEL: ./bin/kernel ../../Configs-y-atajos-tpSO/PRUEBA_IO/kernel.config
+
+MEMORIA: ./bin/memoria ../../Configs-y-atajos-tpSO/PRUEBA_IO/memoria.config
+
+ENTRADASALIDA: ./bin/entradasalida GENERICA ../../Configs-y-atajos-tpSO/PRUEBA_IO/GENERICA.config
+
+               ./bin/entradasalida TECLADO ../../Configs-y-atajos-tpSO/PRUEBA_IO/TECLADO.config
+
+               ./bin/entradasalida MONITOR ../../Configs-y-atajos-tpSO/PRUEBA_IO/MONITOR.config
+               
+CPU: ./bin/cpu ../../Configs-y-atajos-tpSO/PRUEBA_IO/cpu.config
 
 # PRUEBA_FS
 
@@ -72,6 +94,18 @@ Terminar prueba parte 1
 INICIAR_PROCESO /scripts_memoria/FS_3
 
 INICIAR_PROCESO /scripts_memoria/FS_4
+
+KERNEL: ./bin/kernel ../../Configs-y-atajos-tpSO/PRUEBA_IO/kernel.config
+
+MEMORIA: ./bin/memoria ../../Configs-y-atajos-tpSO/PRUEBA_IO/memoria.config
+
+ENTRADASALIDA: ./bin/entradasalida FS ../../Configs-y-atajos-tpSO/PRUEBA_FS/FS.config
+
+               ./bin/entradasalida TECLADO ../../Configs-y-atajos-tpSO/PRUEBA_FS/TECLADO.config
+
+               ./bin/entradasalida MONITOR ../../Configs-y-atajos-tpSO/PRUEBA_FS/MONITOR.config
+               
+CPU: ./bin/cpu ../../Configs-y-atajos-tpSO/PRUEBA_IO/cpu.config
 
 # PRUEBA_SALVATIONS_EDGE
 
