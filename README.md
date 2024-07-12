@@ -10,13 +10,13 @@ git clone https://github.com/sisoputnfrba/c-comenta-pruebas.git
 
 # PRUEBA_PLANI
 
-EJECUTAR_SCRIPT /c-comenta-pruebas/scripts_kernel/PRUEBA_PLANI
+EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_PLANI
 
 FINALIZAR_PROCESO 3
 
 # PRUEBA_DEADLOCK
 
-EJECUTAR_SCRIPT /c-comenta-pruebas/scripts_kernel/PRUEBA_DEADLOCK
+EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_DEADLOCK
 
 FINALIZAR_PROCESO X
 
@@ -32,7 +32,7 @@ INICIAR_PROCESO /scripts_memoria/MEMORIA_3
 
 # PRUEBA_IO
 
-EJECUTAR_SCRIPT /c-comenta-pruebas/scripts_kernel/PRUEBA_IO
+EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_IO
 
 Para IO_A (0):WAR NEVER CHANGES...
 
@@ -55,7 +55,7 @@ INICIAR_PROCESO /scripts_memoria/FS_4
 
 # PRUEBA_SALVATIONS_EDGE
 
-EJECUTAR_SCRIPT /c-comenta-pruebas/scripts_kernel/PRUEBA_SALVATIONS_EDGE
+EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_SALVATIONS_EDGE
 
 MULTIPROGRAMACION 100
 
