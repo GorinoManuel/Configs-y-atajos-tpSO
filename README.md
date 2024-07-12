@@ -95,9 +95,9 @@ INICIAR_PROCESO /scripts_memoria/FS_3
 
 INICIAR_PROCESO /scripts_memoria/FS_4
 
-KERNEL: ./bin/kernel ../../Configs-y-atajos-tpSO/PRUEBA_IO/kernel.config
+KERNEL: ./bin/kernel ../../Configs-y-atajos-tpSO/PRUEBA_FS/kernel.config
 
-MEMORIA: ./bin/memoria ../../Configs-y-atajos-tpSO/PRUEBA_IO/memoria.config
+MEMORIA: ./bin/memoria ../../Configs-y-atajos-tpSO/PRUEBA_FS/memoria.config
 
 ENTRADASALIDA: ./bin/entradasalida FS ../../Configs-y-atajos-tpSO/PRUEBA_FS/FS.config
 
@@ -105,7 +105,7 @@ ENTRADASALIDA: ./bin/entradasalida FS ../../Configs-y-atajos-tpSO/PRUEBA_FS/FS.c
 
                ./bin/entradasalida MONITOR ../../Configs-y-atajos-tpSO/PRUEBA_FS/MONITOR.config
                
-CPU: ./bin/cpu ../../Configs-y-atajos-tpSO/PRUEBA_IO/cpu.config
+CPU: ./bin/cpu ../../Configs-y-atajos-tpSO/PRUEBA_FS/cpu.config
 
 # PRUEBA_SALVATIONS_EDGE
 
@@ -116,12 +116,23 @@ MULTIPROGRAMACION 100
 
 DETENER_PLANIFICACION
 
-6016 KERNEL
-6017 MEMORIA
-6018 CPU_DIS
-6019 CPU_INT
-
-
 PROCESO_ESTADO
 
 INICIAR_PLANIFICACION
+
+
+KERNEL: ./bin/kernel ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/kernel.config
+
+MEMORIA: ./bin/memoria ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/memoria.config
+
+ENTRADASALIDA: ./bin/entradasalida GENERICA ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/GENERICA.config
+
+               ./bin/entradasalida TECLADO ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/TECLADO.config
+
+               ./bin/entradasalida MONITOR ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/MONITOR.config
+
+               ./bin/entradasalida ESPERA ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/ESPERA.config
+
+               ./bin/entradasalida SLP1 ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/SLP1.config
+               
+CPU: ./bin/cpu ../../Configs-y-atajos-tpSO/PRUEBA_SALVATIONS_EDGE/cpu.config
