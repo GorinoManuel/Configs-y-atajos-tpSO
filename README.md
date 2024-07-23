@@ -15,6 +15,8 @@ cd so-deploy/tp-2024-1c-LocosPorLaPromo/kernel
 
 cd entradasalida
 
+cd so-deploy/tp-2024-1c-LocosPorLaPromo/entradasalida
+
 # PRUEBA_PLANI
 
 EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_PLANI
