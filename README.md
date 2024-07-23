@@ -19,6 +19,20 @@ cd entradasalida
 
 cd so-deploy/tp-2024-1c-LocosPorLaPromo/entradasalida
 
+nano ESPERA.config
+
+nano FS.config 
+
+nano GENERICA.config
+
+nano IO_GEN_SLEEP.config
+
+nano MONITOR.config
+
+nano SLP1.config
+
+nano TECLADO.config
+
 # PRUEBA_PLANI
 
 EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_PLANI
