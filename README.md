@@ -5,6 +5,8 @@ cd so-deploy
 
 ./deploy.sh -r=release -p=utils -p=kernel -p=cpu -p=memoria -p=entradasalida "tp-2024-1c-LocosPorLaPromo"
 
+https://docs.google.com/document/d/1XsBsJynoN5A9PTsTEaZsj0q3zsEtcnLgdAHOQ4f_4-g/edit
+
 git clone https://github.com/sisoputnfrba/c-comenta-pruebas.git
 
 cd tp-2024-1c-LocosPorLaPromo
