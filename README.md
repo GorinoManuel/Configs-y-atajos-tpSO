@@ -7,6 +7,13 @@ cd so-deploy
 
 git clone https://github.com/sisoputnfrba/c-comenta-pruebas.git
 
+cd tp-2024-1c-LocosPorLaPromo
+
+cd so-deploy/tp-2024-1c-LocosPorLaPromo
+
+cd so-deploy/tp-2024-1c-LocosPorLaPromo/kernel
+
+cd entradasalida
 
 # PRUEBA_PLANI
 
