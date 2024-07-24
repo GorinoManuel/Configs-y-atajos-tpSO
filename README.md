@@ -19,6 +19,8 @@ cd entradasalida
 
 cd so-deploy/tp-2024-1c-LocosPorLaPromo/entradasalida
 
+nano kernel.config
+
 nano ESPERA.config
 
 nano FS.config 
