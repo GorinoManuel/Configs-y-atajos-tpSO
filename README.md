@@ -41,8 +41,6 @@ EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_PLANI
 
 FINALIZAR_PROCESO 3
 
-PROCESO_ESTADO
-
 KERNEL: ./bin/kernel ./kernel.config
 
 MEMORIA: ./bin/memoria ./memoria.config
@@ -56,6 +54,8 @@ CPU: ./bin/cpu ./cpu.config
 EJECUTAR_SCRIPT ../../c-comenta-pruebas/scripts_kernel/PRUEBA_DEADLOCK
 
 FINALIZAR_PROCESO X
+
+PROCESO_ESTADO
 
 KERNEL: ./bin/kernel ./kernel.config
 
