@@ -159,3 +159,88 @@ ENTRADASALIDA: ./bin/entradasalida GENERICA ./GENERICA.config
                ./bin/entradasalida SLP1 ./SLP1.config
                
 CPU: ./bin/cpu ./cpu.config
+
+# Extra
+
+nano kernelP1.config
+
+./bin/kernel ./kernelP1.config
+
+nano cpuP1.config
+
+./bin/cpu ./cpulP1.config
+
+nano memoriaP1.config
+
+./bin/memoria ./memoriaP1.config
+
+
+
+nano kernelP2.config
+
+./bin/kernel ./kernelP2.config
+
+nano cpuP2.config
+
+./bin/cpu ./cpulP2.config
+
+nano memoriaP2.config
+
+./bin/memoria ./memoriaP2.config
+
+
+
+nano kernelP3.config
+
+./bin/kernel ./kernelP3.config
+
+nano cpuP3.config
+
+./bin/cpu ./cpulP3.config
+
+nano memoriaP3.config
+
+./bin/memoria ./memoriaP3.config
+
+
+
+nano kernelP4.config
+
+./bin/kernel ./kernelP4.config
+
+nano cpuP4.config
+
+./bin/cpu ./cpulP4.config
+
+nano memoriaP4.config
+
+./bin/memoria ./memoriaP4.config
+
+
+
+nano kernelP5.config
+
+./bin/kernel ./kernelP5.config
+
+nano cpuP5.config
+
+./bin/cpu ./cpulP5.config
+
+nano memoriaP5.config
+
+./bin/memoria ./memoriaP5.config
+
+
+
+
+nano kernelP6.config
+
+./bin/kernel ./kernelP6.config
+
+nano cpuP6.config
+
+./bin/cpu ./cpulP6.config
+
+nano memoriaP6.config
+
+./bin/memoria ./memoriaP6.config
