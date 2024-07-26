@@ -244,3 +244,13 @@ nano cpuP6.config
 nano memoriaP6.config
 
 ./bin/memoria ./memoriaP6.config
+
+
+{
+                    archivo = config_create(ruta_archivo);
+                    char * tamanio_nuevo = string_itoa(operacionSTRUN->tamanio_archivo);
+                    config_set_value(archivo, "TAMANIO_ARCHIVO", tamanio_nuevo);
+                    free(tamanio_nuevo);
+                    config_save(archivo);
+                    config_destroy(archivo);
+                }
